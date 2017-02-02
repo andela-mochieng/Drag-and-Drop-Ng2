@@ -1,0 +1,21 @@
+.jumbotron  {
+  margin: 5%;
+  color: #0A122A;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container:first-child {
+  padding-top: 5%;
+}
+
+.col-sm-8 {
+  border-color: #fff;
+  border-style: solid;
+  padding: 5%;
+  background-color: #CFE;
+  color: #f0f;
+
+}
+i {
+  color: red;
+}
