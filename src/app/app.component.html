@@ -1,19 +1,15 @@
-<div class="jumbotron text-center" [dragula]='"first-bag"'>
-  <h2>Learn how to Drag and Drop using Dragula with Angular2</h2>
-  <i>Drag and Drop items below here and back </i>
-<div class="container" [dragula]='"first-bag"'>
-  <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-      <div class='container left' [dragula]='"first-bag"'>
-        <ol>1. You can move these elements between these two containers</ol>
-        <ol>2. Moving them anywhere else isn't quite possible</ol>
-        <ol>3. There's also the possibility of moving elements around in the same</ol>
-        <ol>4. This is the default use case. You only need to specify the containers</ol>
-        <ol>5. More interactive use cases lie ahead</ol>
-        <ol>6. Make sure to check out the </ol>
-      </div>
-    </div>
-  </div>
+<div class="jumbotron text-center">
+    <h2>Learn how to Drag and Drop using Dragula with Angular2</h2>
+    <i>Drag and Drop the image below from one container to another and back </i>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class='container left'>
+                   <div id="div2" [dragula]='"first-bag"'> <img class="col-sm-4" src="../assets/plane.jpeg" alt=""></div>
+                     <div id="div2" [dragula]='"first-bag"'></div>
+                </div>
+            </div>
+        </div>
 
-</div>
+    </div>
 </div>

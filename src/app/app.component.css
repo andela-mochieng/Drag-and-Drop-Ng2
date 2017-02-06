@@ -6,6 +6,7 @@
 }
 .container:first-child {
   padding-top: 5%;
+
 }
 
 .col-sm-8 {
@@ -15,7 +16,30 @@
   background-color: #CFE;
   color: #f0f;
 
+
 }
 i {
   color: red;
+}
+ol {
+  cursor:pointer;
+}
+img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  padding: 5%;
+
+}
+.col-sm-4 {
+  margin-left: 10%;
+}
+
+#div2 {
+  float: left;
+    width: 180px;
+    height: 180px;
+    margin: 40px;
+    padding-top: 5px;
+    border: 1px solid black;
 }

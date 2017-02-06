@@ -7,5 +7,5 @@ import { DragulaService } from 'ng2-dragula';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+
 }
